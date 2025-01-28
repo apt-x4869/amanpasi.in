@@ -5,10 +5,9 @@ export default function About() {
     <section id="about" className="min-h-screen flex items-center justify-center bg-gray-800">
       <div className="container mx-auto px-4 py-16 flex flex-col md:flex-row items-center justify-between">
         <div className="md:w-1/2 mb-8 md:mb-0">
-          <h1 className="text-5xl font-bold mb-4 glow-text">Hi, I'm Your Name</h1>
+          <h1 className="text-5xl font-bold mb-4 glow-text">Hi, I'm Aman Pasi</h1>
           <p className="text-xl mb-6">
-            I'm a passionate web developer with experience in building modern, responsive web applications. I love
-            learning new technologies and solving complex problems.
+            I’m a DevOps engineer passionate about automation, scalability, and streamlining workflows. With expertise in CI/CD, infrastructure as code, and system reliability, I thrive on solving complex challenges and driving efficiency. Always eager to learn and innovate, I’m dedicated to building resilient, high-quality solutions.
           </p>
           <a
             href="#projects"
@@ -21,9 +20,9 @@ export default function About() {
           <div className="relative w-64 h-64 rounded-full overflow-hidden futuristic-border">
             <Image
               src="/profile-pic.jpg"
-              alt="Your Name"
-              layout="fill"
-              objectFit="cover"
+              alt="Aman Pasi"
+              width={300}
+              height={300}
               className="transition-transform duration-300 hover:scale-110"
             />
           </div>
